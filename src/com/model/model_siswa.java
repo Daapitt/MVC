@@ -113,10 +113,10 @@ public class model_siswa implements control_siswa{
 
     @Override
     public void Baru(tampilan siswa) throws SQLException {
-//        siswa.txtNIS.setText("");
-//        siswa.txtNama.setText("");
-//        siswa.rbLaki.setSelected(true);
-//        siswa.cbJurusan.setSelectedIndex(0);
+        siswa.txtNIS.setText("");
+        siswa.txtNama.setText("");
+        siswa.rbLaki.setSelected(true);
+        siswa.cbJurusan.setSelectedIndex(0);
     }
 
     @Override
